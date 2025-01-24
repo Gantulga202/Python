@@ -1,0 +1,11 @@
+print("...::::::WElCOME TO THE GAME:::::::....")
+print("This game can identify find if the word is palindrome or not...")
+
+user_entry = input('Please enter your word here:')
+
+reversed_word = user_entry[::-1]
+
+if user_entry == reversed_word:
+    print("Your word is Palindrom, Congrats!!!")
+else:
+    print('Your word is not Palindrom, Sorry Try Again!')
