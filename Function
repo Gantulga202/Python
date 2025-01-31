@@ -1,0 +1,35 @@
+def test(name):
+    print(f"Hello its me from {name}")
+
+test("Ganaa")
+
+#Family members
+
+def names(name1, name2, name3):
+    print(f"Family members {name1}, {name2}, {name3}")
+
+names("Ganaa", "Nonna", "Uduri")
+
+print("====================================================")
+
+def greeting(members):
+    for member in members:
+        print(f"Hello my family member: {member}")
+
+members = {"dad", "mom", "brother", "sister", "baby", "grandma"}
+
+greeting(members)
+print("====================================================")
+
+def sum(a,b):
+    print(a+b)
+
+sum(3,5)
+print("====================================================")
+
+def sum(a,b):
+    total = a + b
+    return total
+
+hariu = sum(15,20)
+print(hariu)
