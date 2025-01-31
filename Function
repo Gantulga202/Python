@@ -1,6 +1,5 @@
 def test(name):
     print(f"Hello its me from {name}")
-
 test("Ganaa")
 
 #Family members
