@@ -1,0 +1,58 @@
+import random
+max_level = 10
+oper = input("Choose your operator +|-|*|/: ")
+
+if oper == "+":
+    for i in range(1,max_level):
+        a = random.randint(1,10)
+        b = random.randint(1,10)
+        print(f"Welcome to Level {i}")
+        user_answer = int(input(f"What is {a} + {b} = ?"))
+        if user_answer == a + b:
+            print("Tanii hariult zov bn")
+        else:
+            print("Tanii hariult buruu bn, ta dahin oroldooroi")
+            break
+    else:
+        print("Congrats!!!")
+elif oper == "-":
+    for i in range(1,max_level):
+        a = random.randint(1,10)
+        b = random.randint(1,10)
+        print(f"Welcome to Level {i}")
+        user_answer = int(input(f"What is {a} - {b} = ?"))
+        if user_answer == a - b:
+            print("Tanii hariult zov bn")
+        else:
+            print("Tanii hariult buruu bn, ta dahin oroldooroi")
+            break
+    else:
+        print("Congrats!!!")
+elif oper == "*":
+    for i in range(1,max_level):
+        a = random.randint(1,10)
+        b = random.randint(1,10)
+        print(f"Welcome to Level {i}")
+        user_answer = int(input(f"What is {a} * {b} = ?"))
+        if user_answer == a * b:
+            print("Tanii hariult zov bn")
+        else:
+            print("Tanii hariult buruu bn, ta dahin oroldooroi")
+            break
+    else:
+        print("Congrats!!!")
+elif oper == "/":
+    for i in range(1,max_level):
+        a = random.randint(1,10)
+        b = random.randint(1,10)
+        print(f"Welcome to Level {i}")
+        user_answer = int(input(f"What is {a} / {b} = ?"))
+        if user_answer == a / b:
+            print("Tanii hariult zov bn")
+        else:
+            print("Tanii hariult buruu bn, ta dahin oroldooroi")
+            break
+    else:
+        print("Congrats!!!")
+else: 
+    print("Wrong Operator, Please choose again")
