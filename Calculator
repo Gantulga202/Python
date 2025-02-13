@@ -1,0 +1,21 @@
+print("....:::CALCULATOR:::....")
+first_input = input('Ta ehnii toogoo oruulna uu: ')
+Second_input = input('Ta 2 dah toogoo oruulna uu: ')
+operator = input('Ta operator oo oruulna uu +|-|/|*: ')
+
+if operator == '+':
+    hariu = int(first_input) + int(Second_input)
+    print(f'Tanii bodlogiin hariu: {hariu}')
+elif operator == '-':
+    hariu = int(first_input) - int(Second_input)
+    print(f'Tanii bodlogiin hariu: {hariu}')
+elif operator == '*':
+    hariu = int(first_input) * int(Second_input)
+    print(f'Tanii bodlogiin hariu: {hariu}')
+else:
+    hariu = int(first_input) / int(Second_input)
+    print(f'Tanii bodlogiin hariu: {hariu}')
+
+
+#todo improve
+#accept operator that +, -
