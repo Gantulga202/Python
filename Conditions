@@ -1,0 +1,39 @@
+#ene code n a bolon b toog nemeh esvel hasah uildel hiij haruulna
+
+a = 5 
+b = 11
+
+hasah = False
+
+if hasah==True:
+    hariu = b - a
+    print(hariu)
+else:
+    hariu = b + a
+    print(hariu)
+
+#=============================================================================
+
+s = "Hey there! what should this string be?"
+
+# Check how a string starts
+if s.startswith("Str"):
+    print("String starts with 'Str'. Good!")
+
+# Check how a string ends
+if s.endswith("ome!"):
+    print("String ends with 'ome!'. Good!")
+
+# Split the string into three separate strings,
+# each containing only a word
+print("Split the words of the strings: %s" % s.split(" "))
+
+#=============================================================================
+
+name = 'John'
+age = 23
+
+if(name == 'John' and age == 23):
+    print("Your name is John and you are also 23 years old!")
+else:
+    print('buruu')
