@@ -1,0 +1,50 @@
+#===========================================================
+#Array loop
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+for friut in fruits:
+    print(friut)
+
+#===========================================================
+#string loop
+print("===========================================================")
+for hahaha in "banana":
+    print(hahaha)
+
+#===========================================================
+#break
+print("===========================================================")
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+for friut in fruits:
+    print(friut)
+    if friut == "cherry":
+        break
+
+#===========================================================
+#Exercise
+print("===========================================================")
+Students = ["Anu", "Bat", "Erka", "Dorj", "Gantulga", "Sonio", "Zoloo", "Batu"]
+
+for findMe in Students:
+    print(findMe)
+    if findMe == "Gantulga":
+        break
+
+#===========================================================
+print("===========================================================")
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+for friut in fruits:
+    if friut == "cherry":
+        continue
+    print(friut)
+
+#===========================================================
+print("===========================================================")
+Family = ["Ganaa", "Nonna", "Ovoo", "uduri", "Mimi"]
+
+for algasah in Family:
+    if algasah == "Ovoo":
+        continue
+    print(algasah)
